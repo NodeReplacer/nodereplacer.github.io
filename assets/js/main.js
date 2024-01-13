@@ -58,7 +58,7 @@
 		breakpoints.on('>medium', function() {
 			$footer.appendTo($header);
 		});
-
+		
 	// Header.
 
 		// Parallax background.
@@ -104,14 +104,12 @@
 					overlayOpacity: 0.85,
 					popupCloserText: '',
 					popupLoaderText: '',
-					selector: '.work-item a.image',
+					selector: '.work-item a.video-link, .work-item a.image, a.project-demo',
 					usePopupCaption: true,
 					usePopupDefaultStyling: false,
 					usePopupEasyClose: false,
 					usePopupNav: true,
 					windowMargin: (breakpoints.active('<=small') ? 0 : 50)
 				});
-
 			});
-
 })(jQuery);
