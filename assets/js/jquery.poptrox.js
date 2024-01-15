@@ -45,7 +45,7 @@
                         popupPadding: 10,
                         popupCaptionHeight: 60,
                         popupCaptionTextSize: null,
-                        popupBlankCaptionText: "(untitled)",
+                        popupBlankCaptionText: "",
                         popupCloserText: "&#215;",
                         popupLoaderText: "&bull;&bull;&bull;&bull;",
                         popupClass: "poptrox-popup",

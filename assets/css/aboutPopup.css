@@ -1,0 +1,20 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+#footer {
+    height: 100%;
+    margin: 0;
+}
+.about {
+    width: 504px; /* Set the desired width */
+    height: 280px; /* Set the desired height */
+    overflow: auto; /* Add scrollbar if content overflows */
+
+    /*
+    The scrollbar stuff here is not browser agnostic so Ill just
+    use an extension instead. Just to not risk it.
+    */
+    /* scrollbar-width: thin; /* Set the width of the scrollbar */
+    /* scrollbar-color: #999 transparent; /* Set the color of the scrollbar */
+}

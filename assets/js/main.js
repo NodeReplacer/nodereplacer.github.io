@@ -104,7 +104,7 @@
 					overlayOpacity: 0.85,
 					popupCloserText: '',
 					popupLoaderText: '',
-					selector: '.work-item a.video-link, .work-item a.image, a.project-demo',
+					selector: '.work-item a.video-link, .work-item a.image, a.project-demo, a.about',
 					usePopupCaption: true,
 					usePopupDefaultStyling: false,
 					usePopupEasyClose: false,
